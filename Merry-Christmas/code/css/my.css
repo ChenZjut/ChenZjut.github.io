@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "myziti1";
+    src: url(../font/NiShiWoWeiYiShouXuan-2.ttf);
+}
+.gift-svg svg{
+    width: 400px;
+    height: 400px;
+    transform: rotate(-10deg);
+    animation: yao 1.4s 5s infinite ease-in-out;
+}
+.gift-svg .icon path {
+    stroke: white;
+    stroke-width: 3.5;
+    transition: all .6s;
+}
+
+.gift-svg .icon path:nth-child(1) {
+    stroke-dasharray: 70;
+    stroke-dashoffset: 70;
+    animation: line 6s ease forwards 1600ms;
+}
+
+.gift-svg .icon path:nth-child(2) {
+    stroke-dasharray: 7460;
+    stroke-dashoffset: 7460;
+    animation: line 10s ease forwards 1600ms;
+}
+
+.gift-svg .icon path:nth-child(3) {
+    stroke-dasharray: 1389;
+    stroke-dashoffset: 1389;
+    animation: line 15s ease forwards 1600ms;
+}
+
+.gift-svg .icon path:nth-child(4) {
+    stroke-dasharray: 3956;
+    stroke-dashoffset: 3956;
+    animation: line 16s ease forwards 1600ms;
+}
+
+.gift-svg .icon path:nth-child(5) {
+    stroke-dasharray: 8808;
+    stroke-dashoffset: 8808;
+    animation: line 6s ease forwards 1600ms;
+}
+
+@keyframes line {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes yao {
+    0%{
+        transform: rotate(-10deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(-10deg);
+    }
+}
+
+.toName{
+    font-size:20px;
+    margin-left: -40px;
+    transition: all .3s;
+    opacity: 0;
+    font-family: "myziti1";
+}
+.zhufu{
+    position: absolute;
+    font-size: 24px;
+    transition: all .5s;
+}
