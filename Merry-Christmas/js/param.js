@@ -4,7 +4,7 @@ var config = {
     // 网页标题
     title: "圣诞快乐！",
     // 音乐
-    music: "https://m801.music.126.net/20221226113151/f6a897f26672dfac993ef7b7f51ee907/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/19513251626/47cd/101e/c8fb/c6ad7b56fd154f224b407ac631ab2ce9.mp3",
+    music: "./code/音乐/1.mp3",
     // 礼物大小
     gift: {
         width: "350",
